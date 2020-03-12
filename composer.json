@@ -1,0 +1,29 @@
+{
+  "name": "spirling/interfaces",
+  "description": "Spirling Interfaces",
+  "version": "0.0.1",
+  "type": "library",
+  "keywords": [],
+  "homepage": "https://spirling.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Johnie Spirling",
+      "email": "johnie.spirling@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Spirling\\Interfaces\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.0.1-dev"
+    }
+  }
+}
